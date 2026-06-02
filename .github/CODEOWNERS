@@ -1,0 +1,10 @@
+# Wave 18: platform contract files. Tenant overrides happen via env vars or
+# the get_tenant_brand RPC. Editing these files in a tenant repo will break
+# the centrally-evolved "sync from template" workflow.
+
+lib/site.ts                  @ralphestephan
+lib/tenant-brand.ts          @ralphestephan
+lib/supabase.ts              @ralphestephan
+app/api/contact/route.ts     @ralphestephan
+app/api/newsletter/route.ts  @ralphestephan
+app/api/lead/route.ts        @ralphestephan
