@@ -1,0 +1,36 @@
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp.cjs
+.pnp.loader.mjs
+
+# Next.js
+.next/
+.next.cache/
+out/
+
+# Vercel
+.vercel/
+
+# Env & secrets (keep an example file instead)
+.env
+.env.*
+!.env.example
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Tests / coverage
+coverage/
+
+tsconfig.tsbuildinfo
